@@ -1,0 +1,14 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F26D-4041
+
+ Directorio de C:\Users\andre\Desktop
+
+16/10/2023  18:25    <DIR>          .
+16/10/2023  18:25    <DIR>          ..
+31/05/2023  23:45    <DIR>          ARTE
+25/09/2023  19:28            92.387 image.png
+03/10/2023  16:24    <DIR>          Nueva carpeta
+12/10/2023  22:07    <DIR>          Nueva carpeta (2)
+16/10/2023  18:29               562 sortida.txt
+               2 archivos         92.949 bytes
+               5 dirs  251.971.391.488 bytes libres
