@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Exercici1/Exercici1.iml" filepath="$PROJECT_DIR$/Exercici1/Exercici1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercici2/Exercici2.iml" filepath="$PROJECT_DIR$/Exercici2/Exercici2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercici3/Exercici3.iml" filepath="$PROJECT_DIR$/Exercici3/Exercici3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercici4/Exercici4.iml" filepath="$PROJECT_DIR$/Exercici4/Exercici4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1/Exercici1/Exercici1.iml" filepath="$PROJECT_DIR$/Tema1/Exercici1/Exercici1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1/Exercici2/Exercici2.iml" filepath="$PROJECT_DIR$/Tema1/Exercici2/Exercici2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1/Exercici3/Exercici3.iml" filepath="$PROJECT_DIR$/Tema1/Exercici3/Exercici3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1/Exercici4/Exercici4.iml" filepath="$PROJECT_DIR$/Tema1/Exercici4/Exercici4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PSP_repository.iml" filepath="$PROJECT_DIR$/.idea/PSP_repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tema0/Tema0.iml" filepath="$PROJECT_DIR$/Tema0/Tema0.iml" />
     </modules>
