@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3535b67-e9ee-4854-bfbe-c1e12e011682" name="Changes" comment="path">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/.idea/Tema1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/andre/Clase/PSP/PSP_repository/Tema2",
+    "last_opened_file_path": "C:/Users/andre/Clase/PSP/PSP_repository/Tema2/Multifil",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +114,7 @@
       <workItem from="1699376247664" duration="78000" />
       <workItem from="1699376343604" duration="177000" />
       <workItem from="1699377027120" duration="335000" />
+      <workItem from="1699377597655" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="canvis de directori">
       <created>1697471416694</created>

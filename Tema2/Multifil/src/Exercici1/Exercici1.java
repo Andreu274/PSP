@@ -5,7 +5,7 @@ public class Exercici1 {
         int N = 5; // Número de hilos a crear
 
         for (int i = 1; i <= N; i++) {
-            Thread hilo = new Thread(new MiHilo(i));
+            Thread hilo = new Thread(new Fil(i));
             hilo.start();
         }
     }
