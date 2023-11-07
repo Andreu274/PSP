@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3535b67-e9ee-4854-bfbe-c1e12e011682" name="Changes" comment="path">
-      <change beforePath="$PROJECT_DIR$/Tema2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici1/Exercici1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici1/MiHilo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici2/Exercici2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici2/Operacions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici3/Exercici3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici3/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici4/CalculFibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/out/production/Multifil/Exercici4/Exercici4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici1/Exercici1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici1/MiHilo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici2/Exercici2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici2/Operacions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici3/Exercici3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici3/Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici4/CalculFibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Exercici4/Exercici4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Tema2.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2/.idea/Tema1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2/Exercici2/Exercici2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/Multifil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2/Exercici1/Exercici1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Multifil/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +42,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/andre/Clase/PSP/PSP_repository",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/andre/Clase/PSP/PSP_repository/Tema2/Exercici1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,10 +51,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Clase\PSP\PSP_repository" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andre\Clase\PSP\PSP_repository\Tema1" />
     </key>
@@ -124,6 +115,11 @@
       <workItem from="1698951276771" duration="130000" />
       <workItem from="1699374722792" duration="58000" />
       <workItem from="1699375338273" duration="103000" />
+      <workItem from="1699375766202" duration="311000" />
+      <workItem from="1699376103685" duration="43000" />
+      <workItem from="1699376168130" duration="52000" />
+      <workItem from="1699376247664" duration="78000" />
+      <workItem from="1699376343604" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="canvis de directori">
       <created>1697471416694</created>
