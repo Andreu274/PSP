@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3535b67-e9ee-4854-bfbe-c1e12e011682" name="Changes" comment="prova">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Exercicis_multifil/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Exercicis_multifil/Exercicis_multifil.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Exercicis_multifil/src/Exercici1/Exercici1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Exercicis_multifil/src/Exercici1/MiHilo.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f3535b67-e9ee-4854-bfbe-c1e12e011682" name="Changes" comment="path" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +33,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/andre/Clase/PSP/PSP_repository",
+    "last_opened_file_path": "C:/Users/andre/Clase/PSP/PSP_repository/Tema2/Comandes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,6 +99,7 @@
       <workItem from="1698934923085" duration="33000" />
       <workItem from="1698942056572" duration="369000" />
       <workItem from="1698951276771" duration="130000" />
+      <workItem from="1699374722792" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="canvis de directori">
       <created>1697471416694</created>
