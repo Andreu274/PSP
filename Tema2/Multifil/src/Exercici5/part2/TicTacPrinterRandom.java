@@ -1,4 +1,4 @@
-package Exercici52;
+package Exercici5.part2;
 
 import java.util.Random;
 

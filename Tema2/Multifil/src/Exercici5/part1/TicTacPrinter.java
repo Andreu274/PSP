@@ -1,4 +1,4 @@
-package Exercici5;
+package Exercici5.part1;
 
 class TicTacPrinter implements Runnable {
     private static final Object lock = new Object(); // Objecte de bloqueig per als dos fils
