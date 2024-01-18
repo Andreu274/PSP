@@ -1,48 +1,46 @@
 package Activitat3;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
+    static boolean exit = false;
     public static void main(String[] args) {
+        int puertoDestino = 2222;
         try {
-            ServerSocket serverSocket = new ServerSocket(2222);
-            System.out.println("Servidor a l'escolta del port 2222...");
+            ServerSocket serverSocket = new ServerSocket(puertoDestino);
+            Socket server = serverSocket.accept();
+            while (!exit) {
+                System.out.println("Conexion recibida!");
+//Read From Stream
+                InputStream is = server.getInputStream();
+                InputStreamReader isr
 
-            while (true) {
-                Socket clientSocket = serverSocket.accept();
-                System.out.println("Client connectat.");
+                        = new InputStreamReader(is);
+                BufferedReader bf
+                        = new BufferedReader(isr);
+                String linea = bf.readLine();
 
-                // Configurar el flujo de entrada del cliente
-                PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-                String jsonData = out.println("OK");
+//Write In Stream
+                try( FileWriter fileWriter = new FileWriter("Activitat3.json");) {
+                    fileWriter.write(linea);
+                    System.out.println("hecho");
 
-                // Guardar el JSON en el archivo direcciones.txt
-                guardarEnArchivo(jsonData);
 
-                // Cerrar recursos
-                out.close();
-                clientSocket.close();
+                }catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                OutputStream os = server.getOutputStream();
+                PrintWriter pw = new PrintWriter(os);
+                pw.write("ok".toUpperCase() + "\n");
+                pw.flush();
+
+
             }
         } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static void guardarEnArchivo(String jsonData) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("direcciones.txt", true))) {
-            writer.write(jsonData);
-            writer.newLine();
-        } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Error Server");
         }
     }
 }

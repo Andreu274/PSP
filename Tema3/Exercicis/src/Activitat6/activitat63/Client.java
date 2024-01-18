@@ -1,7 +1,5 @@
-package Activitat3;
+package Activitat6.activitat63;
 
-
-import netscape.javascript.JSObject;
 import org.json.JSONObject;
 
 import java.io.*;
@@ -11,23 +9,19 @@ import java.util.Scanner;
 
 public class Client {
     public static BufferedReader getFlujo(InputStream is) {
-        InputStreamReader isr
-                = new InputStreamReader(is);
-        BufferedReader bfr
-                = new BufferedReader(isr);
-        return bfr;
+        InputStreamReader isr = new InputStreamReader(is);
+        return new BufferedReader(isr);
     }
+
     public static void main(String[] args) {
         String destino = "localhost";
         int puertoDestino = 2222;
         Socket socket = new Socket();
-        InetSocketAddress direccion = new InetSocketAddress(
-
-                destino, puertoDestino);
+        InetSocketAddress direccion = new InetSocketAddress(destino, puertoDestino);
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Escriu una carrer");
+        System.out.println("Escriu un carrer");
         String carrer = sc.nextLine();
         System.out.println("Escriu codi postal");
         String cp = sc.nextLine();
@@ -45,18 +39,20 @@ public class Client {
 
         try {
             socket.connect(direccion);
-            while (true) {
 
-                PrintWriter pw = new PrintWriter(socket.getOutputStream());
-                pw.print(json + "\n");
-                pw.flush();
-                BufferedReader bfr = Client.getFlujo(socket.getInputStream());
-                System.out.println("El resultat ha estat: " + bfr.readLine());
-                sc.nextLine();
-//socket.close();
-            }
+            PrintWriter pw = new PrintWriter(socket.getOutputStream());
+            pw.print(json + "\n");
+            pw.flush();
+
+            BufferedReader bfr = Client.getFlujo(socket.getInputStream());
+            System.out.println("Resposta del servidor: " + bfr.readLine());
+
+            // Tancar recursos
+            pw.close();
+            bfr.close();
+            socket.close();
         } catch (IOException e) {
-            System.out.println("Error Client");
+            System.out.println("Error al connectar amb el servidor.");
         }
     }
 }

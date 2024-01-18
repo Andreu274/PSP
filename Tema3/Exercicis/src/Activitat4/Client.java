@@ -1,39 +1,40 @@
 package Activitat4;
 
 import java.io.*;
-import java.net.Socket;
-import java.util.Scanner;
+import java.net.*;
 
 public class Client {
-
     public static void main(String[] args) {
         try {
             Socket socket = new Socket("localhost", 2000);
 
-            // Solicitar operación y números al usuario
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Ingrese la operación (suma, resta, multiplicacion, division): ");
-            String operacion = scanner.nextLine();
-            System.out.print("Ingrese el primer número: ");
-            double num1 = Double.parseDouble(scanner.nextLine());
-            System.out.print("Ingrese el segundo número: ");
-            double num2 = Double.parseDouble(scanner.nextLine());
-
-            // Enviar la operación y los números al servidor
+            // Crear objectes de flux de dades per llegir i escriure al servidor
+            BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
-            writer.println(operacion);
+
+            // Llegir l'operació des de la consola
+            System.out.print("Introdueix l'operació (suma, resta, multiplicacio, divisio): ");
+            String ordre = new BufferedReader(new InputStreamReader(System.in)).readLine();
+
+            // Llegir els números des de la consola
+            System.out.print("Introdueix el primer número: ");
+            double num1 = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
+
+            System.out.print("Introdueix el segon número: ");
+            double num2 = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
+
+            // Enviar l'operació i els números al servidor
+            writer.println(ordre);
             writer.println(num1);
             writer.println(num2);
 
-            // Leer el resultado del servidor
-            BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            String resultado = reader.readLine();
-            System.out.println(resultado);
+            // Llegir i imprimir la resposta del servidor
+            String resposta = reader.readLine();
+            System.out.println(resposta);
 
-            // Cerrar recursos
-            scanner.close();
-            writer.close();
+            // Tancar els recursos
             reader.close();
+            writer.close();
             socket.close();
         } catch (IOException e) {
             e.printStackTrace();

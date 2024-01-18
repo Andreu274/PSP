@@ -1,4 +1,4 @@
-package Activitat4;
+package Activitat6.activitat64;
 
 import java.io.*;
 import java.net.Socket;
