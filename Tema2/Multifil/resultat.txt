@@ -1,0 +1,5 @@
+vocal i: 1
+vocal o: 2
+vocal e: 0
+vocal u: 0
+vocal a: 2

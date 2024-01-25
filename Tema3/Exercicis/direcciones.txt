@@ -1,0 +1,1 @@
+{"Carrer":"Calle A","CodiPostal":"08001","Pais":"España","NombreCasa":"Casa 123"}
