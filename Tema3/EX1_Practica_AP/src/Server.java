@@ -81,10 +81,13 @@ public class Server {
             } else {
                 out.println("No s'ha trobat cap registre amb aquest ID.");
             }
-        } catch (IOException | NumberFormatException e) {
-            out.println("Error en llegir l'ID del client.");
+        } catch (NumberFormatException e) {
+            out.println("Error: L'ID ha de ser un nombre enter.");
+        } catch (IOException e) {
+            out.println("Error de lectura de l'ID del client.");
         }
     }
+
 
     private static void handleDelete(BufferedReader in, PrintWriter out) {
         try {

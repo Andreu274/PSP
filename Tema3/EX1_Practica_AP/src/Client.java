@@ -16,7 +16,7 @@ public class Client {
 
             while (!exitRequested) {
                 // Demanda al cliente que introduzca la operación
-                System.out.println("Introduzca la operación (insert, select, delete, exit):");
+                System.out.println("Introdueix la operació (insert, select, delete, exit):");
                 String command = userInput.readLine();
                 out.println(command);
 
@@ -34,7 +34,7 @@ public class Client {
                         exitRequested = true;
                         break;
                     default:
-                        System.out.println("Comando no válido.");
+                        System.out.println("Comanda no valida.");
                 }
             }
 
@@ -46,13 +46,13 @@ public class Client {
 
     private static void handleInsert(BufferedReader userInput, PrintWriter out, BufferedReader in) {
         try {
-            System.out.println("Introduzca el ID:");
+            System.out.println("Introdueix l'ID:");
             int id = Integer.parseInt(userInput.readLine());
 
-            System.out.println("Introduzca el Nombre:");
+            System.out.println("Introdueix el nom:");
             String nom = userInput.readLine();
 
-            System.out.println("Introduzca el Apellido:");
+            System.out.println("Introdueix el cognom:");
             String cognom = userInput.readLine();
 
             // Crear un objeto JSON con las datos del cliente
